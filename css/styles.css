@@ -1,0 +1,78 @@
+html{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+header{
+    border-top: 4px solid #0070d1;
+    border-bottom: 3px solid rgb(187, 186, 186);
+}
+/* MAIN */
+#section2 section article div{
+    height: 211px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#section2 section article div:first-child > button{
+    background-image: url(../img/selfie1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 section article div:nth-child(2) > button{
+    background-image: url(../img/selfie2.jpg!d);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 section article div:nth-child(3){
+    background-image: url(../img/selfie3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 section article div:nth-child(4){
+    background-image: url(../img/selfie4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section2 section article div:last-child{
+    background-image: url(../img/selfie5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.perfil{
+    border: 3px solid #1876F1;
+}
+.text-white{
+    font-size: 12px;
+}
+.text-dark{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* VISTA LARGE */
+header div:first-child nav ul li svg{
+    transform: scale(2.5);
+}
+header div:first-child nav ul li svg:hover{
+    border-bottom: 1px solid #0070d1;
+    fill: #0070d1;
+}
+header div:first-child nav + section div svg{
+    transform: scale(2);
+}
+header div:first-child nav + section ul li svg{
+    transform: scale(1.2);
+}
+/* VISTA MOBILE */
+header div:last-child section:first-of-type svg{
+    transform: scale(2);
+
+}
+header div:last-child section:last-of-type svg{
+    transform: scale(1.2);
+}
